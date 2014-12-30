@@ -1,6 +1,6 @@
 {
   "name": "GitHub Diff Navigator",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "manifest_version": 2,
   "description": "GitHub Diff Navigator allows you to easily navigate through the changes in a file that has been edited on GitHub.",
   
@@ -16,9 +16,9 @@
     "declarativeContent"
   ],
   "icons": {
-    "16": "img/icon2-16.png",
-    "48": "img/icon2-48.png",
-    "128": "img/icon2-128.png"
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
   },
   "content_scripts": [
     {
@@ -31,5 +31,6 @@
         "src/inject.js"
       ]
     }
-  ]  
+  ],
+  "homepage_url": "https://github.com/daattali/github-diff-navigator-extension"
 }

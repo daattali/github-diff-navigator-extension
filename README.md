@@ -37,13 +37,13 @@ I would not advise using my code as a template or resource for learning how to w
 ## Screenshots
 
 Editing a markdown file  
-![](./img/doc-ex-markdown.png)
+![](./img/doc/ex-markdown.png)
 
 Editing a json file  
-![](./img/doc-ex-nonmarkdown.png)
+![](./img/doc/ex-nonmarkdown.png)
 
 Editing a file but not being on the Preview tab  
-![](./img/doc-wrong-tab.png)
+![](./img/doc/wrong-tab.png)
 
 Editing a file without making any changes  
-![](./img/doc-no-changes.png)
+![](./img/doc/no-changes.png)
