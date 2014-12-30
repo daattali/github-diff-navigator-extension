@@ -26,3 +26,8 @@ So instead of simply scrolling through the page slowly and carefully to see wher
 - Works with multiple GitHub tabs open simultaneously.   
 - Automatically detect whether the file being edited is markdown-type or not, and seamlessly works for both.  
 - Intuitive UI and helpful messages shown when no edits are found.
+
+
+## Disclaimer
+
+I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  I also left a little bit of ugly code in there -- please dont judge :)
