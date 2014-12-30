@@ -1,0 +1,49 @@
+body {
+	width:150px;
+	text-align:center;
+	position: relative;
+}
+
+#github-diff-ext-nav {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+#github-diff-ext-arrows {
+	margin-top: 10px;
+}
+
+#github-diff-ext-nav .nav-arrow {
+	width: 20px;
+	height: 19px;
+	cursor: pointer;
+}
+
+#github-diff-ext-nav .nav-arrow:hover {
+	opacity: 0.9;
+}
+
+#github-diff-ext-nav .nav-arrow:active {
+	opacity: 0.7;
+}
+
+#github-diff-ext-prev {
+	transform: scale(-1, 1);
+}
+
+#github-diff-ext-refresh {
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+#github-diff-ext-refresh:hover {
+	transform: rotate(45deg);
+}
+
+#github-diff-ext-refresh:active {
+	transform: rotate(315deg);
+}
