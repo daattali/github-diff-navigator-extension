@@ -11,6 +11,7 @@ GitHub shows the entire markdown document when previewing the changes made, whic
 
 Enter: GitHub Diff Navigator.
 
+
 ## Motivation
 
 The idea for this extension came when I was reading through [Hadley Wickham's Advanced R book](http://adv-r.had.co.nz/).
@@ -31,3 +32,18 @@ So instead of simply scrolling through the page slowly and carefully to see wher
 ## Disclaimer
 
 I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  I also left a little bit of ugly code in there -- please dont judge :)
+
+
+## Screenshots
+
+Editing a markdown file  
+![](./img/doc-ex-markdown.png)
+
+Editing a json file  
+![](./img/doc-ex-nonmarkdown.png)
+
+Editing a file but not being on the Preview tab  
+![](./img/doc-wrong-tab.png)
+
+Editing a file without making any changes  
+![](./img/doc-no-changes.png)
