@@ -1,4 +1,4 @@
-# GitHub Diff Navigator 
+# GitHub Diff Navigator (Chrome extension)
 
 
 ## Description
