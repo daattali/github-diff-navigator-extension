@@ -2,6 +2,9 @@
 
 Dean Attali  
 December 2014  
+Source code available [on GitHub](https://github.com/daattali/github-diff-navigator-extension)  
+Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo)  
+
 
 ## Description
 
@@ -49,8 +52,3 @@ Editing a file but not being on the Preview tab
 
 Editing a file without making any changes  
 ![](./img/doc/no-changes.png)
-
-
----------
-
-Available at: https://github.com/daattali/github-diff-navigator-extension
