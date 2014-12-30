@@ -1,5 +1,7 @@
 # GitHub Diff Navigator (Chrome extension)
 
+Dean Attali  
+December 2014  
 
 ## Description
 
@@ -47,3 +49,8 @@ Editing a file but not being on the Preview tab
 
 Editing a file without making any changes  
 ![](./img/doc/no-changes.png)
+
+
+---------
+
+Available at: https://github.com/daattali/github-diff-navigator-extension
