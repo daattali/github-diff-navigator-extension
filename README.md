@@ -15,7 +15,7 @@ Enter: GitHub Diff Navigator.
 ## Motivation
 
 The idea for this extension came when I was reading through [Hadley Wickham's Advanced R book](http://adv-r.had.co.nz/).
-Every time I found a few typos in a chapter (which is a single markdown document), I would edit it on GitHub and make a pull request.
+Every time I found a few typos in a chapter (which is a single markdown document), I would edit it on GitHub and make a pull request.  
 To make sure I didn't make an idiot out of myself, I wanted to double-check my edits in the Preview tab, but I noticed the problem described above. I didn't trust my eyes in finding the few edits in such large files, and I ended up using the DOM + JavaScript console to help me find where the edits were.  
 Then I decided that playing in the JavaScript console wasn't hardcore enough and I decided to spend the next two days making an extension that will help me find such changes quickly in the future.
 
@@ -24,14 +24,14 @@ Then I decided that playing in the JavaScript console wasn't hardcore enough and
 
 - GitHub Diff Navigator is non-intrusive and will only show up when looking at the Preview of edits made on a file using GitHub.    
 - GitHub Diff Navigator will not take up any resources or show up in Chrome's Task Manager when you don't have a valid GitHub edited page open.   
-- Works with multiple GitHub tabs open simultaneously.   
+- Works with multiple GitHub tabs that are open simultaneously (every time you switch tabs, the extension will update to show you the edits in that tab).   
 - Automatically detect whether the file being edited is markdown-type or not, and seamlessly works for both.  
-- Intuitive UI and helpful messages shown when no edits are found.
+- Clean and intuitive UI with helpful messages shown when no edits are found.
 
 
 ## Disclaimer
 
-I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  I also left a little bit of ugly code in there -- please dont judge :)
+I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  It was just an excuse to test out how Chrome extensions work.  I also left a little bit of ugly code in there -- please dont judge :)
 
 
 ## Screenshots
