@@ -16,8 +16,8 @@ Enter: GitHub Diff Navigator.
 
 The idea for this extension came when I was reading through [Hadley Wickham's Advanced R book](http://adv-r.had.co.nz/).
 Every time I found a few typos in a chapter (which is a single markdown document), I would edit it on GitHub and make a pull request.
-To make sure I didn't make an idiot out of myself, I wanted to double-check my edits in the Preview tab, but I noticed the problem described above.
-So instead of simply scrolling through the page slowly and carefully to see where the edits are (which would take 60 seconds), I instead spent two days making an extension that will help me find these changes quickly.
+To make sure I didn't make an idiot out of myself, I wanted to double-check my edits in the Preview tab, but I noticed the problem described above. I didn't trust my eyes in finding the few edits in such large files, and I ended up using the DOM + JavaScript console to help me find where the edits were.  
+Then I decided that playing in the JavaScript console wasn't hardcore enough and I decided to spend the next two days making an extension that will help me find such changes quickly in the future.
 
 
 ## Features
