@@ -1,12 +1,12 @@
 body {
-	width:150px;
-	text-align:center;
-	position: relative;
+	width: 150px;
+	text-align: center;
 }
 
 #github-diff-ext-nav {
 	font-size: 1.5em;
 	margin-bottom: 5px;
+	display: none;
 }
 
 #github-diff-ext-arrows {
@@ -31,11 +31,26 @@ body {
 	transform: scale(-1, 1);
 }
 
+#github-diff-footer {
+	margin-top: 7px;
+	position: relative;
+}
+
+#github-diff-copyright {
+	color: #888888;
+	font-size: 1em;
+}
+
+#github-diff-link {
+	text-decoration: underline;
+	cursor: pointer;
+	color: inherit;
+}
+
 #github-diff-ext-refresh {
 	width: 14px;
 	height: 14px;
 	position: absolute;
-	bottom: 0;
 	right: 0;
 	cursor: pointer;
 }
@@ -45,5 +60,5 @@ body {
 }
 
 #github-diff-ext-refresh:active {
-	transform: rotate(315deg);
+	opacity: 0.7;
 }
