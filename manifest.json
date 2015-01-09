@@ -1,6 +1,6 @@
 {
   "name": "GitHub Diff Navigator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "manifest_version": 2,
   "description": "GitHub Diff Navigator allows you to easily navigate through the changes in a file that has been edited on GitHub.",
   
