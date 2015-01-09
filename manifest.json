@@ -1,15 +1,15 @@
 {
   "name": "GitHub Diff Navigator",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "manifest_version": 2,
   "description": "GitHub Diff Navigator allows you to easily navigate through the changes in a file that has been edited on GitHub.",
   
   "page_action": {
 	"default_title": "GitHub Diff Navigator",
-	"default_popup": "popup.html"
+	"default_popup": "html/popup.html"
   },
   "background": {
-    "scripts": ["src/background.js"],
+    "scripts": ["js/background.js"],
     "persistent": false
   },
   "permissions" : [
@@ -27,8 +27,7 @@
 		"http://github.com/*/edit/*"
       ],
       "js": [
-	    "src/ext/jquery-2.1.3.min.js",
-        "src/inject.js"
+        "js/githubDiffNav.js"
       ]
     }
   ],

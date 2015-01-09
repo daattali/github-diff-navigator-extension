@@ -1,10 +1,14 @@
 body {
-	width: 150px;
+	width: 230px;
 	text-align: center;
 }
 
+#github-diff-title {
+	font-size:1.4em;
+}
+
 #github-diff-ext-nav {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: 5px;
 	display: none;
 }
@@ -29,6 +33,10 @@ body {
 
 #github-diff-ext-prev {
 	transform: scale(-1, 1);
+}
+
+#github-diff-ext-msg {
+	font-size: 1.1em;
 }
 
 #github-diff-footer {

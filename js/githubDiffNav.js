@@ -1,17 +1,17 @@
-var githubDiffInject = {
+var githubDiffNav = {
 
 	// init: add message listeners and call the appropriate function based on the request
 	init : function() {
 		chrome.runtime.onMessage.addListener(
 		  function(request, sender, sendResponse) {			
 			if (request.action == "refresh") {
-				githubDiffInject.refreshDiffEls();
+				githubDiffNav.refreshDiffEls();
 			} else if (request.action == "highlightDiff") {
-				githubDiffInject.highlightDiff(request.el);
+				githubDiffNav.highlightDiff(request.el);
 			} else if (request.action == "isInPreviewTab") {
-				sendResponse({isInPreviewTab : githubDiffInject.isInPreviewTab()});
+				sendResponse({isInPreviewTab : githubDiffNav.isInPreviewTab()});
 			} else if (request.action == "isDiffOutdated") {
-				sendResponse({isDiffOutdated : githubDiffInject.isDiffOutdated(request.diffIds)});
+				sendResponse({isDiffOutdated : githubDiffNav.isDiffOutdated(request.diffIds)});
 			}				
 		  }
 		);
@@ -20,12 +20,23 @@ var githubDiffInject = {
 	// refreshDiffEls: look at the page's DOM and find all the elements that are changed
 	refreshDiffEls : function() {
 		// find the elements depending on the file type
-		if ($(".markdown-body").length > 0) {  // diff view for markdown files
-			var githubDiffEls = $(".prose-diff .markdown-body>ins, .prose-diff .markdown-body>del, .rich-diff-level-zero.changed");
+		if (document.getElementsByClassName("markdown-body").length > 0) {  // diff view for markdown files
+			var githubDiffEls = document.querySelectorAll(".prose-diff .markdown-body>ins, .prose-diff .markdown-body>del, .rich-diff-level-zero.changed");
 			var doctype = "Markdown";
 		} else {    // any non-markdown file
-			var githubDiffCells = $("td.blob-num-addition, td.blob-num-deletion");
-			var githubDiffEls = githubDiffCells.parent("tr");
+			// get all edited sections by first getting all editted lines and then
+			// only keeping the first line from a section of consecutive lines
+			var githubDiffCells = document.querySelectorAll("td.blob-num-addition, td.blob-num-deletion");
+			var githubDiffEls = [];
+			var lastRow = null;
+			for (var i = 0; i < githubDiffCells.length; i++) {
+				var el = githubDiffCells[i];
+				var rowEl = el.parentNode;
+				if (i == 0 || (rowEl != lastRow && rowEl.previousElementSibling != lastRow)) {
+					githubDiffEls.push(rowEl);
+				}	
+				lastRow = rowEl;
+			}
 			var doctype = "Non-markdown";
 		}
 		
@@ -53,7 +64,7 @@ var githubDiffInject = {
 
 	// isInPreviewTab: determine if the user is currently on the Preview tab or not
 	isInPreviewTab : function() {
-		return $(".tabnav-tab.selected.preview").length > 0;
+		return document.getElementsByClassName("tabnav-tab selected preview").length > 0;
 	},
 	
 	// isDiffOutdated: determine if the diffs in the Preview tab are outdated
@@ -72,4 +83,4 @@ var githubDiffInject = {
 	}
 }
 
-githubDiffInject.init();
+githubDiffNav.init();
