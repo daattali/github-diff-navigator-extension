@@ -52,3 +52,8 @@ Editing a file but not being on the Preview tab
 
 Editing a file without making any changes  
 ![](./img/doc/no-changes.png)
+
+
+## Other extensions
+
+[Smileyfy My Facebook](https://github.com/daattali/smileyfy-my-facebook-extension) - Chrome extension that adds infinite happiness to your Facebook browsing, plus a little bonus rickrolling :) 
