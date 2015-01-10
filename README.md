@@ -39,19 +39,9 @@ Then I decided that playing in the JavaScript console wasn't hardcore enough and
 I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  It was just an excuse to test out how Chrome extensions work.  I also left a little bit of ugly code in there -- please dont judge :)
 
 
-## Screenshots (from a very early version)
+## Screenshot (from a very early version)
 
-Editing a markdown file  
 ![](./img/doc/ex-markdown.png)
-
-Editing a json file  
-![](./img/doc/ex-nonmarkdown.png)
-
-Editing a file but not being on the Preview tab  
-![](./img/doc/wrong-tab.png)
-
-Editing a file without making any changes  
-![](./img/doc/no-changes.png)
 
 
 ## Other extensions
