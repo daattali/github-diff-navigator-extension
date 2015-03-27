@@ -38,11 +38,6 @@ Then I decided that playing in the JavaScript console wasn't hardcore enough and
 - Clean and intuitive UI with helpful messages shown when no edits are found.
 
 
-## Disclaimer
-
-I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  It was just an excuse to test out how Chrome extensions work.  I also left a little bit of ugly code in there -- please dont judge :)
-
-
 ## Other extensions
 
 [Google Slides Auto Resize Speaker Notes](https://github.com/daattali/gslides-betternotes-extension) - the slides thumbnails in the Speaker Notes window of Google Slides are tiny. This extension dynamically resizes the slides to be more readable based on the window size.
@@ -52,3 +47,8 @@ I would not advise using my code as a template or resource for learning how to w
 ---
 
 To see my other projects, visit [http://deanattali.com/projects](http://deanattali.com/projects)
+
+
+## Disclaimer
+
+I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  It was just an excuse to test out how Chrome extensions work.  I also left a little bit of ugly code in there -- please dont judge :)
