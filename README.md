@@ -19,7 +19,9 @@ Enter: GitHub Diff Navigator.
 
 ## Demo
 
-![](./img/doc/demo.gif)
+Here is a 20-second GIF that shows a demo of this extension:
+
+![Demo](./img/doc/demo.gif)
 
 ## Motivation
 
