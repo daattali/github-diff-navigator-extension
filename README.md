@@ -46,4 +46,10 @@ I would not advise using my code as a template or resource for learning how to w
 
 ## Other extensions
 
+[Google Slides Auto Resize Speaker Notes](https://github.com/daattali/gslides-betternotes-extension) - the slides thumbnails in the Speaker Notes window of Google Slides are tiny. This extension dynamically resizes the slides to be more readable based on the window size.
+
 [Smileyfy My Facebook](https://github.com/daattali/smileyfy-my-facebook-extension) - Chrome extension that adds infinite happiness to your Facebook browsing, plus a little bonus rickrolling :) 
+
+---
+
+To see my other projects, visit [http://deanattali.com/projects](http://deanattali.com/projects)
