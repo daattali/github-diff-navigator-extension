@@ -17,6 +17,10 @@ GitHub shows the entire markdown document when previewing the changes made, whic
 Enter: GitHub Diff Navigator.
 
 
+## Demo
+
+![](./img/doc/demo.gif)
+
 ## Motivation
 
 The idea for this extension came when I was reading through [Hadley Wickham's Advanced R book](http://adv-r.had.co.nz/).
@@ -37,11 +41,6 @@ Then I decided that playing in the JavaScript console wasn't hardcore enough and
 ## Disclaimer
 
 I would not advise using my code as a template or resource for learning how to write Chrome extensions.  I learned how to write the extension and fully built it within two days, so I'm not sure what the best practices are and how to properly organize the code.  It was just an excuse to test out how Chrome extensions work.  I also left a little bit of ugly code in there -- please dont judge :)
-
-
-## Screenshot (from a very early version)
-
-![](./img/doc/ex-markdown.png)
 
 
 ## Other extensions
