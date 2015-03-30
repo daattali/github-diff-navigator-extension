@@ -1,6 +1,6 @@
 # GitHub Diff Navigator (Chrome extension)
 
-_Dean Attali_    
+_[Dean Attali](http://deanattali.com)_    
 _December 2014_    
 _Source code available [on GitHub](https://github.com/daattali/github-diff-navigator-extension)_     
 _Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo)_  
