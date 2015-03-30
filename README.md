@@ -5,6 +5,9 @@ _December 2014_
 _Source code available [on GitHub](https://github.com/daattali/github-diff-navigator-extension)_     
 _Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo)_  
 
+## Installation
+
+Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo) and click on the "Add to Chrome" button.
 
 ## Description
 
@@ -40,9 +43,11 @@ Then I decided that playing in the JavaScript console wasn't hardcore enough and
 - Clean and intuitive UI with helpful messages shown when no edits are found.
 
 
-## Other extensions
+## My other extensions
 
 [Google Slides Auto Resize Speaker Notes](https://github.com/daattali/gslides-betternotes-extension) - the slides thumbnails in the Speaker Notes window of Google Slides are tiny. This extension dynamically resizes the slides to be more readable based on the window size.
+
+[Project Free TV Ad Bypass](https://github.com/daattali/pftv-ad-bypass-extension) - Project Free TV serves a 10-second ad page before allowing users to continue to the video - this extension bypasses the ad page.
 
 [Smileyfy My Facebook](https://github.com/daattali/smileyfy-my-facebook-extension) - Chrome extension that adds infinite happiness to your Facebook browsing, plus a little bonus rickrolling :) 
 
