@@ -1,5 +1,7 @@
 # GitHub Diff Navigator (Chrome extension)
 
+[![saythanks](http://i.imgur.com/L88apDa.png)](https://saythanks.io/to/daattali)
+
 > *Copyright 2015 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
 
 _Source code available [on GitHub](https://github.com/daattali/github-diff-navigator-extension)_     
