@@ -1,4 +1,4 @@
-# GitHub Diff Navigator (Chrome extension)
+# Diff Navigator for GitHub (Chrome extension)
 
 [![saythanks](http://i.imgur.com/L88apDa.png)](https://saythanks.io/to/daattali)
 
