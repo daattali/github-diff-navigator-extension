@@ -1,13 +1,13 @@
-# Diff Navigator for GitHub (Chrome extension)
+# Diff Navigator for GitHub (Chrome / Firefox extension)
 
-> *Copyright 2015 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
+> *Copyright 2020 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
 
 _Source code available [on GitHub](https://github.com/daattali/github-diff-navigator-extension)_     
-_Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo)_  
+_Get the [Chrome extension](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo) or [Firefox addon](https://addons.mozilla.org/addon/diff-navigator-for-github/)_  
 
 ## Installation
 
-Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo) and click on the "Add to Chrome" button.
+Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/github-diff-navigator/aoojogkiedabnddmokieplfnmjehlneo) or [Firefox add-ons page](https://addons.mozilla.org/addon/diff-navigator-for-github/) and install with one button click there.
 
 ## Description
 
@@ -44,6 +44,8 @@ Then I decided that playing in the JavaScript console wasn't hardcore enough and
 
 
 ## My other extensions
+
+[Old School GitHub](https://github.com/daattali/oldschool-github-extension) - GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of the new UI that I (and many others) don't like and this extension brings back a few features from the classic GitHub look. 
 
 [Google Slides Auto Resize Speaker Notes](https://github.com/daattali/gslides-betternotes-extension) - the slides thumbnails in the Speaker Notes window of Google Slides are tiny. This extension dynamically resizes the slides to be more readable based on the window size.
 
